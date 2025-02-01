@@ -1,1 +1,0 @@
-VITE_OPEN_AI_API_KEY="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" #need to change this

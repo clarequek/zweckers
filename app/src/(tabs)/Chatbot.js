@@ -1,7 +1,6 @@
 import '../styles/Chatbot.css';
 import Message from '../components/Message.js';
 import { useState, useRef, useEffect } from 'react';
-import { marked } from "marked";
 import { db } from '../config/firebase.js';
 import { collection, doc, addDoc, serverTimestamp, getDocs, deleteDoc, getDoc, setDoc } from 'firebase/firestore';
 import ReactMarkdown from 'react-markdown';
@@ -220,7 +219,7 @@ function Chatbot() {
                         key={index}
                         isBot={msg.isBot}
                         name={msg.name}
-                        text={<div>{<ReactMarkdown>{msg.text}</ReactMarkdown>}</div>}
+                        text={<div>{<ReactMarkdown>{msg.text.replace(/<think>.*?<\/think>/gs, '')}</ReactMarkdown>}</div>}
                     />
                 ))}
                 <div ref={messagesEndRef} />

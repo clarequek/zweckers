@@ -7,27 +7,27 @@
   align-items: center;
 }
 .LogoImage {
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
 }
 .SidePanel {
   background-color: #000c0a;
-  width: 228px;
+  width: 200px;
   height: 100vh;
   justify-items: center;
 }
 .GroupName {
   color: #ffffff;
   font-family: "Josefin-Sans-Bold";
-  font-size: 28px;
+  font-size: 25px;
 }
 .ButtonName {
   color: #ffffff;
   font-family: "Raleway-SemiBold";
-  font-size: 18px;
+  font-size: 15px;
 }
 .Button {
-  width: 207px;
+  width: 200px;
   height: 50px;
   flex-direction: row;
   display: flex;
@@ -44,11 +44,11 @@
 }
 .Button:hover {
   background-color: #747ae2;
-  width: 207px;
+  width: 180px;
   height: 50px;
 }
 .Button.active {
   background-color: #434ce5;
-  width: 207px;
+  width: 180px;
   height: 50px;
 }
