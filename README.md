@@ -129,6 +129,14 @@ Watch our video demonstration on YouTube here: [https://www.youtube.com/watch?v=
 
 ---
 
+## 📝 Made By
+- Ow Zheng Wei [🐻](https://github.com/zzhengweii)
+- Clare Quek Ying Han [🐤](https://github.com/clarequek)
+- Lee Wen Yeong [🦎](https://github.com/harvestingmoon)
+- Eunice Gong Shi Min [🐱](https://github.com/Eun18)
+
+---
+
 ## 📜 License
 This project is licensed under the **MIT License**. See [MIT License](LICENSE) for details.
 
